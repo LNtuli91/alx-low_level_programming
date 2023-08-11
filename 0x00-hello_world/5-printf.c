@@ -3,9 +3,9 @@
 /**
  * main - Entry point
  *
- * a C program that prints exactly with proper grammar, but the outcome is a piece of art
+ * a C program that prints exactly with proper grammar.
  *
- * Return! always 0 (success)
+ * Return: always 0 (success)
  */
 int main(void)
 {
