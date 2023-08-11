@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - main entry point
+ * main - Entry point
  *
- * return: always 0 (Success)
+ * Description: a C program that prints exactly
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle\"");
+	puts("Programming is like building a multilingual puzzle");
 	return (0);
 }
