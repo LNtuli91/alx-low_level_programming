@@ -3,8 +3,8 @@
 
 /**
  * main - Entry point
- *  main - A c program that prints exactly a line, to the standard error.
- *  Return 1 (Success)
+ * main - A c program that prints exactly a line, to the standard error.
+ * Return: always 1 (Success)
  */
 
 int main(void)
