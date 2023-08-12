@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
- * main = to print positive or negative number
+ * main - assign a random number to the variable n, each
  *
  * main = Entry point
  *
- * This program will assign a random number to the variable n.
+ * Complete the source code in order to print whether the number stored in
  * Return: Always 0 (success)
  */
 int main(void)
