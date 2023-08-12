@@ -3,8 +3,11 @@
 #include <stdio.h>
 
 /**
+ * main - assign a random number to the variable n
+ *
  * main = Entry point
  *
+ * This program will assign a random number to the variable n each time.
  * Return: Always 0 (success)
  */
 int main(void)
