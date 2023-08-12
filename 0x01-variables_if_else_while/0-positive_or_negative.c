@@ -3,15 +3,12 @@
 #include <stdio.h>
 
 /**
- * main = Entry point
- * Assign a random number to the variable n
- * main = Checks if a number is positive or negative
+ * main =  to print whether the number stored in the variable n is positive or negative
+ * This program will assign a random number to the variable n
  *
- * @n>0: positive number
- * @n<0: negative number
- * @n==0: zero number
- *
+ * main = Entry point 
  * Return: Always 0 (success)
+ *
  */
 int main(void)
 {
