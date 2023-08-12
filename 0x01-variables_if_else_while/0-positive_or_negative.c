@@ -4,7 +4,13 @@
 
 /**
  * main = Entry point
- * 0-positive_or_negative.c
+ *
+ * main = Checks if a number is positive or negative
+ *
+ * @n>0: positive number
+ * @n<0: negative number
+ * @n==0: zero number
+ *
  * Return: Always 0 (success)
  */
 int main(void)
