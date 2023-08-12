@@ -4,7 +4,7 @@
 
 /**
  * main = Entry point
- *
+ * Assign a random number to the variable n
  * main = Checks if a number is positive or negative
  *
  * @n>0: positive number
