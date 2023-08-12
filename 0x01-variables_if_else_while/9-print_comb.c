@@ -21,7 +21,7 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
-			if (i == 9)
+			if (j == 9)
 			{
 				break;
 			}
