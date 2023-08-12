@@ -4,11 +4,11 @@
 
 /**
  * main = to print whether the number stored in the variable n
- * This program will assign a random number to the variable n
  *
- * main = Entry point 
+ * main = Entry point
+ *
+ * This program will assign a random number to the variable n.
  * Return: Always 0 (success)
- *
  */
 int main(void)
 {
