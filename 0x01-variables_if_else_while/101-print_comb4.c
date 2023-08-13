@@ -18,13 +18,16 @@ void putchar_combinations(void)
 				putchar(o);
 				putchar(p);
 				putchar(q);
-				putchar(',');
-				putchar(' ');
+
+				if (o != '7' || p != '8' || q != '9')
+				{
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
 }
-#include <stdio.h>
 
 /**
  * main - Entry point
