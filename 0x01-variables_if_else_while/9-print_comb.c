@@ -11,18 +11,14 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; (i = 9); i++)
+	for (i = 0; i <= 9; i++)
 	{
+		putchar(i + '0');
+		if (i != 9)
 		{
-			if (i <= 8)/* check if this is not the last combination*/
-				putchar(i + '0');/* print the current number*/
-				putchar(',');
-				putchar(' ');
-			}
-			if (i == 9)/* check if this is the last combination*/
-			{
-				break;/* exit the inner loop*/
-			}
+			putchar(',');
+			putchar(' ');
+		}
 	}
 	putchar('\n');
 	return (0);
