@@ -26,7 +26,7 @@ int main(void)
 			q = o / 10;
 			putchar(r + '0');
 			putchar(q + '0');
-			if (o != 99 || p != 99)
+			if (o != 98 || p != 99)
 			{
 				putchar(',');
 				putchar(' ');
