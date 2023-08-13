@@ -11,17 +11,20 @@
 
 int main(void)
 {
-	for (int i = 0; i < 100; i++)
+	int i;
+	int j;
+
+	for (i = 0; i < 100; i++)
 	{
 		for (int j = i + 1; j < 100; j++)
 		{
-			my_putchar(i / 10 + '0');
-			my_putchar(i % 10 + '0');
-			my_putchar(' ');
-			my_putchar(j / 10 + '0');
-			my_putchar(j % 10 + '0');
-			my_putchar(',');
-			my_putchar(' ');
+			putchar(i / 10 + '0');
+			putchar(i % 10 + '0');
+			putchar(' ');
+			putchar(j / 10 + '0');
+			putchar(j % 10 + '0');
+			putchar(',');
+			putchar(' ');
 		}
 	}
 	return (0);
