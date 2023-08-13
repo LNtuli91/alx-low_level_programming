@@ -34,6 +34,7 @@ void putchar_combinations(void)
 int main(void)
 {
 	putchar_combinations();
+	putchar('\n');
 	return (0);
 }
 
