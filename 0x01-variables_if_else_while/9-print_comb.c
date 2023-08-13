@@ -11,11 +11,11 @@ int main(void)
 {
 	int i;
 
-	for (i = 0; (i = 10); i++)
+	for (i = 0; (i = 9); i++)
 	{
 		{
-			putchar(i + '0');/* print the current number*/
 			if (i <= 8)/* check if this is not the last combination*/
+				putchar(i + '0');/* print the current number*/
 			{
 				putchar(',');
 				putchar(' ');
