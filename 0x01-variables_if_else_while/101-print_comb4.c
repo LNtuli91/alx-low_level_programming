@@ -1,9 +1,11 @@
 #include <stdio.h>
-/**
- * putchar_combinations - Prints all combinations of three digits from 0 to 9
- */
 
-void putchar_combinations(void)
+/**
+ * main - Entry point
+ *
+ *Return: Always 0 (Success)
+ */
+int main(void)
 {
 	int o;
 	int p;
@@ -27,16 +29,6 @@ void putchar_combinations(void)
 			}
 		}
 	}
-}
-
-/**
- * main - Entry point
- *
- *Return: Always 0 (Success)
- */
-int main(void)
-{
-	putchar_combinations();
 	putchar('\n');
 	return (0);
 }
