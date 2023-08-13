@@ -16,7 +16,6 @@ int main(void)
 		{
 			if (i <= 8)/* check if this is not the last combination*/
 				putchar(i + '0');/* print the current number*/
-			{
 				putchar(',');
 				putchar(' ');
 			}
@@ -24,7 +23,6 @@ int main(void)
 			{
 				break;/* exit the inner loop*/
 			}
-		}
 	}
 	putchar('\n');
 	return (0);
