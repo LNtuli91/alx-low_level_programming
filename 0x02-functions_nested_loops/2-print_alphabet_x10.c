@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabert_x10 - Make the alphabet 010 times
+ * print_alphabet_x10 - Make the alphabet 010 times
  *
  * Return: void
  */
@@ -19,7 +19,7 @@ void print_alphabet_x10(void)
 		{
 			_putchar(c);
 		}
-		putchar('\n');
+		_putchar('\n');
 		i++;
 	}
 }
