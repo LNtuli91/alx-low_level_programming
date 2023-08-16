@@ -3,6 +3,8 @@
 /**
  * print_times_table - Prints the n times table, starting with 0.
  *
+ * @n: The number of times tables to print.
+ *
  * Return: Always 0.
  */
 
