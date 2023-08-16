@@ -20,8 +20,9 @@ void print_times_table(int n)
 		if (j == 0)
 			printf("%d", i * j);
 		else
-			printf(", %d", i * j);
+			printf(", %3d", i * j);
 	}
 		printf("\n");
 	}
+
 }
