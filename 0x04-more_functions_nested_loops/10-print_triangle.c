@@ -6,7 +6,7 @@
  * @size: size of triangle
  * Return: void
  */
-i
+
 void print_triangle(int size)
 {
 	int row, hashes, space;
@@ -19,7 +19,7 @@ void print_triangle(int size)
 	{
 		for (row = 1; row <= size; row++)
 		{
-			for (spaces = size - row; spaces >= 1; space--)
+			for (space = size - row; space >= 1; space--)
 			{
 				_putchar(' ');
 		}
