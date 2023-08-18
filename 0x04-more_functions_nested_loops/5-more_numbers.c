@@ -1,18 +1,22 @@
 #include "main.h"
 
 /**
- * print_most_numbers - prints 01356789
- * Return: void
+ * more_numbers - prints numbers from 0-14 10 times
+ * Return: 0
  */
 
-void print_most_numbers(void)
+void more_numbers(void)
 {
-	char c;
+	int p, q;
 
-	for (c = '0'; c <= '9'; c++)
+	for (p = 1; p <= 10; p++)
 	{
-		if (!(c == '2' || c == '4'))
-			_putchar(c);
+		for (q = 0; q <= 14; q++)
+		{
+			if (q >= 10)
+			_putchar('1');
+			_putchar(q % 10 + '0');
 	}
 	_putchar('\n');
+	}
 }
