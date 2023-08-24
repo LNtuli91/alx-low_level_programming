@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * void reverse_array - reverse array of itegers
+ * reverse_array - reverse array of itegers
  * @a: array
  * @n: number ofelement of array
  * Return: void
@@ -17,6 +17,6 @@ void reverse_array(int *a, int n)
 	{
 		j = a[i];
 		a[i] = a[n];
- 		a[n] = j;
-	}		
+		a[n] = j;
+	}
 }
