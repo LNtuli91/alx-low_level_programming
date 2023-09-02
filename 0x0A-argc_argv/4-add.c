@@ -32,7 +32,7 @@ int check_num(char *str)
  * @argc: number of arguments
  * @argv: arrays of arguments
  *
- * Return:0 (Success), 1 (Error)
+ * Return: 0 (Success), 1 (Error)
  */
 
 int main(int argc, char *argv[])
@@ -40,9 +40,10 @@ int main(int argc, char *argv[])
 	int count;
 	int str_to_int;
 	int sum = 0;
+
 	count = 1;
 
-	while (count < argc)/*Goes through the whole array*/
+	while (count < argc) /*Goes through the whole array*/
 	{
 		if (check_num(argv[count]))
 		{
