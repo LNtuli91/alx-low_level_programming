@@ -31,13 +31,14 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	while (i < s1_len)
 	{
-		new_str[i] = s1_len[i];
+		new_str[i] = s1[i];
 		i++;
 	}
 	while (n < s2_len && i < (s1_len + n))
-		new_str[i++] = s2_len[j++];
-	while (n >= s2_len && i < (s1_len + n)
-			new_str[i++] = s2_len[j++];
+		new_str[i++] = s2[j++];
+
+	while (n >= s2_len && i < (s1_len + n))
+			new_str[i++] = s2[j++];
 
 	new_str[i] = '\0';
 	return (new_str);
